@@ -1,0 +1,48 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    font-family: Lucida Sans;
+}
+#card {
+    background-color: white;
+    width: 700px;
+    height: 400px;
+    margin: 40px;
+    flex-flow: column wrap;
+    border: 2px solid slategray;
+}
+.flex {
+    display: flex;
+}
+#round {
+    border-style:solid;
+    border-color: slategray;
+    border-radius: 50%;
+    border-width: 3px;
+    background-color: white;
+}
+
+#blue-bar {
+    background-color: teal;
+    height: 20px;
+    padding: 30px;
+    border: 1px solid slategray;
+}
+#info {
+    padding: 50px 0px 0px 40px;
+}
+#name {
+    font-size:xx-large;
+    font-weight: bold;
+}
+li {
+    list-style-type: none;
+}
+li, img {
+    padding: 5px;
+    display: flex;
+    align-items: center;
+}
+.icon {
+    margin: 0px 5px 0px 0px;
+}
